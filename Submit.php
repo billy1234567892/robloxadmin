@@ -12,7 +12,7 @@ $userName = $_POST["username"];
 $pp = $_POST["pp"];
 $del = $_POST["delete"];
 $NAME = $_SESSION["username"];
-$con=mysqli_connect("localhost","496400","password","496400");
+$con=mysqli_connect("127.0.0.1","496400","password","496400");
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }

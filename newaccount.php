@@ -22,7 +22,7 @@ echo("Wrong Signup Code");
 <a id='a' href="Google.php">Back</a><br/><br/>
 <?php 
 if($code=="3459345" and strlen($user)>2 and strlen($pass)>6){
-$con=mysqli_connect("localhost","496400","password","496400");
+$con=mysqli_connect("127.0.0.1","496400","password","496400");
 
 // Check connection
 if (mysqli_connect_errno()) {

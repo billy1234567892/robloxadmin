@@ -17,7 +17,7 @@ $_SESSION["password"] = $passWord;
 else{
 $passWord= $_SESSION["password"];
 }
-$con=mysqli_connect("localhost","496400","password","496400");
+$con=mysqli_connect("127.0.0.1","496400","password","496400");
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
@@ -43,7 +43,7 @@ echo("You do not have access to this page");
 <a href="Process.php">Back</a><br/><br/>
 <?php 
 if($ok==true){
-$con=mysqli_connect("localhost","496400","password","496400");
+$con=mysqli_connect("127.0.0.1","496400","password","496400");
 
 // Check connection
 if (mysqli_connect_errno()) {

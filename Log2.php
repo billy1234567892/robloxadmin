@@ -24,7 +24,7 @@ $_SESSION["password"] = $passWord;
 else{
 $passWord= $_SESSION["password"];
 }
-$con=mysqli_connect("localhost","496400","password","496400");
+$con=mysqli_connect("127.0.0.1","496400","password","496400");
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
